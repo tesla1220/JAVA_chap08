@@ -22,17 +22,25 @@ public class Application {
         Product product1 = new Product();
         System.out.println(product1.getInfo());
 
+        System.out.println();
+
         // Product 모든 필드 초기화 하는 생성자
         Product product2 = new Product("A-1230", "삼송", "갠역시S2", 20000, new java.util.Date());
         System.out.println(product2.getInfo());
+
+        System.out.println();
 
         // Computer 기본 생성자
         Computer computer1 = new Computer();
         System.out.println(computer1.getInfo());
 
+        System.out.println();
+
         // Computer 모든 필드 초기화 하는 생성자
         Computer computer2 = new Computer("I-9", 512, 32, "윈도우");
         System.out.println(computer2.getInfo());
+
+        System.out.println();
 
         // Computer 부모필드 까지 전부 초기화하는 생성자
         Computer computer3 = new Computer("A-1234", "삼송", "갠역시2", 20000, new java.util.Date()

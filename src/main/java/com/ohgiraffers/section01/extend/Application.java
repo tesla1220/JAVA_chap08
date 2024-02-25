@@ -55,6 +55,8 @@ public class Application {
         car.soundHorn();
         car.stop();
 
+        System.out.println();
+
 
         /* 목차 2. FireCar 인스턴스 생성 후 Car 클래스에 작성한 메소드 사용 가능 확인*/
 
@@ -70,16 +72,18 @@ public class Application {
         /* 목차 3. 상속은 확장의 의미이므로 추가적인 기능도 작성할 수 있다. */
         fireCar.sprayWater();
 
+        System.out.println();
+
         /* 목차 4. RacingCar 인스턴스 생성 후 메소드 호출 테스트 */
 
         RacingCar racingCar = new RacingCar();
+
 
         racingCar.soundHorn();
         racingCar.run();
         racingCar.soundHorn();
         racingCar.stop();
         racingCar.soundHorn();
-
 
 
     }
